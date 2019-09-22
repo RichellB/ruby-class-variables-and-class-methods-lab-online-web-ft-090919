@@ -16,8 +16,7 @@ class Song
   def self.genres 
     new_arr = []
     @@genres.map {|g| g.include?(g)}
-    new_arr << g
-    new_arr 
+  
   end 
   
   def self.artists 
