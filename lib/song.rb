@@ -14,12 +14,11 @@ class Song
   end
   
   def self.genres 
-    new_arr = []
-    @@genres.map {|g| g.include?(g)}
-  
+    @@genres.uniq
   end 
   
   def self.artists 
+    @@artists.uniq
   end
     
 end 
